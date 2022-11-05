@@ -8,8 +8,13 @@
 }
 
 @font-face {
-  font-family: inter;
+  font-family: inter-bold;
   src: url(src/assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(src/assets/fonts/Inter-Regular.ttf);
 }
 
 @font-face{
@@ -25,8 +30,12 @@
   font-family: handwrite;
 }
 
+.inter-bold{
+  font-family: inter-bold;
+}
+
 .inter{
-  font-family: inter;
+  font-family: Inter;
 }
 
 body{
