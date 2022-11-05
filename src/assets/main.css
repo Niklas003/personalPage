@@ -17,6 +17,11 @@
   src: url(src/assets/fonts/Inter-Regular.ttf);
 }
 
+@font-face {
+  font-family: Inter-Thin;
+  src: url(src/assets/fonts/Inter-Thin.ttf);
+}
+
 @font-face{
   font-family: mono-bold;
   src: url(src/assets/fonts/RobotoMono-Bold.ttf);
@@ -38,6 +43,36 @@
   font-family: Inter;
 }
 
+.inter-thin{
+  font-family: Inter-Thin;
+}
+
 body{
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.init-background{
+  background: rgb(27,39,53);
+  background: radial-gradient(circle, rgba(27,39,53,1) 0%, rgba(9,10,15,1) 100%);
+}
+
+.text-bg{
+  background: rgb(0,129,123);
+  background: linear-gradient(90deg, rgba(0,129,123,1) 0%, rgba(6,205,159,1) 43%, rgba(0,191,34,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-text-bg{
+  background: rgb(63,76,93);
+  background: linear-gradient(0deg, rgba(63,76,93,1) 0%, rgba(207,211,231,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-title-bg{
+  background: 06B5D4;
+  background: linear-gradient(90deg, #06B5D4 0%, #3B82F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
