@@ -9,6 +9,8 @@ import NavbarVue from '@/components/Navbar.vue';
         <div class="flex flex-wrap">
             <div class="mx-auto p-4 mt-28 w-1/3 bg-transparent border-slate-400 border-2 shadow-md shadow-slate-700 rounded-md">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sit quidem accusantium quos natus, fugiat, quas eveniet reprehenderit aliquam optio possimus? Molestias corrupti in perferendis fuga velit? Quasi, ratione ab?</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quidem! Itaque, provident? Similique sunt maxime adipisci, commodi minima consequuntur harum nemo dolorem sed vitae optio laboriosam dolores totam distinctio reiciendis.</p>
             </div>
         </div>
     </div>
