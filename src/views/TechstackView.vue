@@ -5,7 +5,7 @@ import NavbarVue from '@/components/Navbar.vue';
 <template>
     <div class="text-white">
         <Transition name="bounce" appear>
-            <h1 class="text-center inter-bold text-7xl pt-20 techstack-title-bg">Techstack</h1>
+            <h1 class="text-center inter-bold text-6xl pt-20 techstack-title-bg">Techstack</h1>
         </Transition>
         <NavbarVue site="Techstack" class="mt-10"></NavbarVue>
 

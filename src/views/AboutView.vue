@@ -4,7 +4,7 @@ import NavbarVue from '@/components/Navbar.vue';
 <template>
     <div class="text-white">
         <Transition name="bounce" appear>
-            <h1 class="text-center inter-bold text-7xl pt-20 about-title-bg">About</h1>
+            <h1 class="text-center inter-bold text-6xl pt-20 about-title-bg">About</h1>
         </Transition>
         <NavbarVue site="About" class="mt-10"></NavbarVue>
         <Transition name="slide-fade" appear>
