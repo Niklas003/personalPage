@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'techstack',
       component: () => import('../views/TechstackView.vue')
     },
+    {
+      path: '/platforms',
+      name: 'platforms',
+      component: () => import('../views/PlatformsView.vue')
+    },
   ]
 })
 

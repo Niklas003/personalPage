@@ -1,10 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  defineProps({
+    site: {
+      type: String,
+      required: true
+    }
+  })
+</script>
 <template>
-    <div class="text-center text-lg">
-        <span class="hover:text-slate-400 transition duration-200 cursor-pointer"><RouterLink to="/">Home </RouterLink> </span><span class="inter-thin">|</span>
-        <span class="hover:text-slate-400 transition duration-200 cursor-pointer"><RouterLink to="/about"> About </RouterLink> </span><span class="inter-thin">|</span>
-        <span class="hover:text-slate-400 transition duration-200 cursor-pointer"> <RouterLink to="/techstack"> Techstack </RouterLink> </span><span class="inter-thin">|</span>
-        <span class="hover:text-slate-400 transition duration-200 cursor-pointer"> Contact </span><span class="inter-thin">|</span>
-        <span class="hover:text-slate-400 transition duration-200 cursor-pointer"> Platforms</span>
+    <div class="text-center text-lg mx-1.5">
+        <span v-if="site != 'Home'" class="inter-light hover:text-slate-400 transition duration-200 cursor-pointer"><RouterLink to="/">Home </RouterLink> </span><span v-if="site != 'Home'" class="inter-light">|</span>
+        <span v-if="site != 'About'" class="inter-light hover:text-slate-400 transition duration-200 cursor-pointer"><RouterLink to="/about"> About </RouterLink> </span><span v-if="site != 'About'" class="inter-light">|</span>
+        <span v-if="site != 'Techstack'" class="inter-light hover:text-slate-400 transition duration-200 cursor-pointer"> <RouterLink to="/techstack"> Techstack </RouterLink> </span><span v-if="site != 'Techstack'" class="inter-light">|</span>
+        <span v-if="site != 'Contact'" class="inter-light hover:text-slate-400 transition duration-200 cursor-pointer"> Contact </span><span v-if="site != 'Platforms'" class="inter-light">|</span>
+        <span v-if="site != 'Platforms'" class="inter-light hover:text-slate-400 transition duration-200 cursor-pointer"> <RouterLink to="/platforms"> Platforms </RouterLink></span>
       </div>
 </template>
