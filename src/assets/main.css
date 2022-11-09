@@ -2,33 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: handwrite;
-  src: url(src/assets/fonts/handwrite.ttf);
-}
-
-@font-face {
-  font-family: inter-bold;
-  src: url(src/assets/fonts/Inter-Bold.ttf);
-}
-
-@font-face {
-  font-family: Inter;
-  src: url(src/assets/fonts/Inter-Regular.ttf);
-}
-
-@font-face {
-  font-family: Inter-Thin;
-  src: url(src/assets/fonts/Inter-Thin.ttf);
-}
-
-@font-face{
-  font-family: mono-bold;
-  src: url(src/assets/fonts/RobotoMono-Bold.ttf);
-}
-
 .mono-bold{
-  font-family: mono-bold;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .handwrite{
@@ -36,15 +11,12 @@
 }
 
 .inter-bold{
-  font-family: inter-bold;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
 }
 
 .inter{
-  font-family: Inter;
-}
-
-.inter-thin{
-  font-family: Inter-Thin;
+  font-family: 'Inter', sans-serif;
 }
 
 body{
