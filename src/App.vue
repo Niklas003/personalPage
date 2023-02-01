@@ -1,13 +1,17 @@
 <script setup lang="ts">
+import AboutView from './views/AboutView.vue';
 import HomeView from './views/HomeView.vue';
 import { RouterView } from 'vue-router'
+import TechstackView from './views/TechstackView.vue';
+import PlatformsView from './views/PlatformsView.vue';
 </script>
 
 <template>
   <div class="init-background min-h-screen">
-    <Transition name="slide-up">
-      <RouterView></RouterView>
-    </Transition>
+    <HomeView></HomeView>
+    <AboutView></AboutView>
+    <TechstackView></TechstackView>
+    <PlatformsView></PlatformsView>
   </div>
 </template>
 <style>

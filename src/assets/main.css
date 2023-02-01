@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .mono-bold{
   font-family: 'IBM Plex Mono', monospace;
 }
@@ -78,6 +82,21 @@ body::-webkit-scrollbar{
   -webkit-text-fill-color: transparent;
 }
 
+.github-shadow:hover{
+  width: 150px;
+  -webkit-filter: drop-shadow(0 0 20px #64748b);
+  filter: drop-shadow(0 0 20px #64748b);
+}
+.gitlab-shadow:hover{
+  width: 150px;
+  -webkit-filter: drop-shadow(0 0 20px #f59e0b);
+  filter: drop-shadow(0 0 20px #f59e0b);
+}
+.linkedIn-shadow:hover{
+  width: 150px;
+  -webkit-filter: drop-shadow(0 0 20px #38bdf8);
+  filter: drop-shadow(0 0 20px #38bdf8);
+}
 /* ANIMATIONS */
 
 .bounce-enter-active {
@@ -93,15 +112,4 @@ body::-webkit-scrollbar{
   100% {
     transform: scale(1);
   }
-}
-
-.slide-fade-enter-active {
-  transition: all 0.5s ease-out;
-  transition-delay: .5s;
-}
-
-.slide-fade-enter-from,
-.slide-fade-leave-to {
-  transform: translateX(-10%);
-  opacity: 0;
 }
