@@ -9,7 +9,7 @@ Aos.init()
 </script>
 
 <template>
-  <div class="init-background min-h-screen">
+  <div class="init-background min-h-screen overflow-x-hidden">
     <HomeView></HomeView>
     <AboutView></AboutView>
     <TechstackView></TechstackView>

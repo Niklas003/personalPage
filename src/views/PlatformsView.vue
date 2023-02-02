@@ -3,9 +3,7 @@ import NavbarVue from '@/components/Navbar.vue';
 </script>
 <template>
         <div id="platforms" class="text-white min-h-screen">
-        <Transition name="bounce" appear>
-            <h1 class="text-center inter-bold text-6xl pt-20 platforms-title-bg">Platforms</h1>
-        </Transition>
+            <h1 class="text-center inter-bold text-6xl pt-20 platforms-title-bg" data-aos="fade-left">Platforms</h1>
         <NavbarVue site="Platforms" class="mt-10"></NavbarVue>
         <h2 class="mt-40 text-center inter-light text-5xl">You can find me on</h2>
 
