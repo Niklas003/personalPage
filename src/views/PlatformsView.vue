@@ -9,7 +9,7 @@ import NavbarVue from '@/components/Navbar.vue';
         <NavbarVue site="Platforms" class="mt-10"></NavbarVue>
         <h2 class="mt-40 text-center inter-light text-5xl">You can find me on</h2>
 
-        <div class="flex flex-col justify-center">
+        <div class="flex flex-col justify-center" data-aos="zoom-in-down">
             <div class="flex-initial inline-block mx-auto w-max pt-32">
             <a class="grayscale hover:grayscale-0 duration-300 px-4" href="https://github.com/Niklas003"><img class="github-shadow duration-300 inline" src="../assets/Images/github-mark-white.png" style="width: 3rem" alt="GitHub Logo"></a>
             <a class="grayscale hover:grayscale-0 duration-300 px-4" href="https://gitlab.com/Niklas003"><img class="gitlab-shadow duration-300 inline" src="../assets/Images/gitlab-logo-500.svg" style="width: 4.3rem" alt="GitLab Logo"></a>

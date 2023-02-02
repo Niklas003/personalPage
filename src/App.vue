@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import AboutView from './views/AboutView.vue';
 import HomeView from './views/HomeView.vue';
-import { RouterView } from 'vue-router'
 import TechstackView from './views/TechstackView.vue';
 import PlatformsView from './views/PlatformsView.vue';
+import Aos from 'aos';
+
+Aos.init()
 </script>
 
 <template>
