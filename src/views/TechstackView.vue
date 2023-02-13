@@ -18,10 +18,10 @@ import NavbarVue from '@/components/Navbar.vue';
         <div class="flex flex-col sm:flex-row justify-center mx-8 mt-6">
             <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="400" class="self-center m-4 bg-[rgb(27,39,53)] p-2 rounded-md min-w-[6rem] min-h-[6rem] drop-shadow-lg shadow-slate-800 text-center"><img class="align-middle" src="../assets/Images/Git_Logo.png" style="width: 5rem;" alt=""></div>
             <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="400" class="self-start m-4 bg-[rgb(27,39,53)] p-2 rounded-md min-w-[6rem] min-h-[6rem] drop-shadow-lg shadow-slate-800 text-center"><img class="align-middle" src="../assets/Images/Figma_Logo.svg" style="width: 5rem;" alt=""></div>
-            <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="400" class="self-center m-4 bg-[rgb(27,39,53)] p-2 rounded-md min-w-[6rem] min-h-[6rem] drop-shadow-lg shadow-slate-800 text-center"><img class="align-middle" src="../assets/Images/VSCode_Logo.png" style="width: 5rem;" alt=""></div>
+            <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="400" class="self-center m-4 bg-[#1b2735] p-2 rounded-md min-w-[6rem] min-h-[6rem] drop-shadow-lg shadow-slate-800 text-center"><img class="align-middle" src="../assets/Images/VSCode_Logo.png" style="width: 5rem;" alt=""></div>
         </div>
         <div class="mx-auto w-1/2 pt-20 mb-64" data-aos="fade-right" data-aos-duration="600" data-aos-delay="400">
-            <img class="drop-shadow-lg shadow-slate-800" alt="Niklas003's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Niklas003&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=1e293b" />
+            <img class="drop-shadow-lg shadow-slate-800" alt="Niklas003's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Niklas003&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=1b2735" />
         </div>
     </div>
 </template>
