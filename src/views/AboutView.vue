@@ -8,16 +8,15 @@ import NavbarVue from '@/components/Navbar.vue';
         </Transition>
         <NavbarVue site="About" class="mt-10"></NavbarVue>
         <Transition name="slide-fade" appear>
-            <div class="flex flex-col md:flex-row justify-left mx-8">
-            <div data-aos="fade-left" data-aos-duration="600" class="text-white p-2 m-2 mt-28 bg-white/5 border-slate-400 border shadow-2xl shadow-slate-900 duration-300 rounded-md">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sit quidem accusantium quos natus, fugiat, quas eveniet reprehenderit aliquam optio possimus? Molestias corrupti in perferendis fuga velit? Quasi, ratione ab?</p>
-                <br>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quidem! Itaque, provident? Similique sunt maxime adipisci, commodi minima consequuntur harum nemo dolorem sed vitae optio laboriosam dolores totam distinctio reiciendis.</p>
-            </div>
-            <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="400" class="text-white p-2 m-2 mt-28 bg-white/5 border-slate-400 border shadow-2xl shadow-slate-900 duration-300 rounded-md">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sit quidem accusantium quos natus, fugiat, quas eveniet reprehenderit aliquam optio possimus? Molestias corrupti in perferendis fuga velit? Quasi, ratione ab?</p>
-                <br>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, quidem! Itaque, provident? Similique sunt maxime adipisci, commodi minima consequuntur harum nemo dolorem sed vitae optio laboriosam dolores totam distinctio reiciendis.</p>
+            <div class="flex flex-col md:flex-row justify-start mx-8">
+                <div data-aos="fade-left" data-aos-duration="600" class="self-end text-white p-4 m-2 mt-28 bg-[rgb(27,39,53)] drop-shadow-lg shadow-slate-800 duration-300 rounded-md w-96">
+                <p>Hey! My Name is Niklas and I enjoy creating things for the Web. My interest in web development started during my school days when I took up a CS course and we've developed some Pages with PHP.😱 
+                    <br>
+                    <br>
+                    Currently more active in the Frontend section I also want to gain Experience in Backend Dev. <i>Always learning</i>
+                    <br><br>
+                    Though I'm still a student I enjoy working at <a href="https://www.dbsystel.de/dbsystel" class="text-cyan-300 hover:underline">DB Systel</a> where I've learned a lot about the German Railway System😅, and of course coding stuff.
+                </p>
             </div>
         </div>
         </Transition>
