@@ -9,7 +9,7 @@ import NavbarVue from '@/components/Navbar.vue';
         <NavbarVue site="About" class="mt-10"></NavbarVue>
         <Transition name="slide-fade" appear>
             <div class="flex flex-col md:flex-row justify-start mx-8">
-                <div data-aos="fade-left" data-aos-duration="600" class="self-end text-white p-4 m-2 mt-28 bg-[rgb(27,39,53)] drop-shadow-lg shadow-slate-800 duration-300 rounded-md w-96">
+                <div data-aos="fade-left" data-aos-duration="600" class="self-end text-white p-4 m-2 mt-28 bg-[rgb(27,39,53)] drop-shadow-lg shadow-slate-800 duration-300 rounded-md max-w-96">
                 <p>Hey! My Name is Niklas and I enjoy creating things for the Web. My interest in web development started during my school days when I took up a CS course and we've developed some Pages with PHP.😱 
                     <br>
                     <br>
