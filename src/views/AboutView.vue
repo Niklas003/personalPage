@@ -15,7 +15,8 @@ import NavbarVue from '@/components/Navbar.vue';
                     <br>
                     Currently more active in the Frontend section I also want to gain Experience in Backend Dev. <i>Always learning</i>
                     <br><br>
-                    Though I'm still a student I enjoy working at <a href="https://www.dbsystel.de/dbsystel" class="text-cyan-300 hover:underline">DB Systel</a> where I've learned a lot about the German Railway System😅, and of course coding stuff.
+                    Though I'm still a student, I enjoy working at <a href="https://www.dbsystel.de/dbsystel" class="text-cyan-300 hover:underline">DB Systel</a> where I've learned a lot about the German Railway System😅... and of course coding stuff.
+                    I am looking forward to contribute on cool projects at work as well as in my free time.
                 </p>
             </div>
         </div>
